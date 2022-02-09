@@ -1,0 +1,62 @@
+h1 {
+    margin-left: 20px;
+}
+
+h2 {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.nav-bar ul li {
+    margin: 0 5px;
+}
+
+.nav-bar ul li a {
+    font-size: 18px;
+}
+
+nav {
+    margin-right: 20px;
+}
+
+.about-me-section {
+    display: flex;
+}
+
+.personal-bio {
+    margin: 0 20px;
+    font-size: 24px;
+    line-height: 1.7;
+    border-left: 2px solid black;
+    padding-left: 15px;
+}
+.work-section {
+    display: flex;
+}
+
+.contact-me-section {
+    display: flex;
+    justify-content: space-between
+}
+
+.contact-info ul {
+    display: flex;
+}
+
+.contact-info ul li {
+    margin: 0 150px;
+    font-size: 24px;
+    list-style: none;
+}
