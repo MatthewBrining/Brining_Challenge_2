@@ -1,0 +1,93 @@
+h1 {
+    margin-left: 20px;
+}
+
+h2 {
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    border-right: 2px solid black;
+}
+
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.nav-bar ul li {
+    margin: 0 5px;
+}
+
+.nav-bar ul li a {
+    font-size: 18px;
+}
+
+nav {
+    margin-right: 20px;
+}
+
+.hero {
+ 
+    background-image: url(././Images/pexels-david-bartus-963278.jpg);
+    height: 400px;
+}
+
+.about-me-section {
+    display: flex;
+}
+
+.about-me-section img {
+    width: 300px;
+    flex: 0 12%;
+    margin-top: 50px;
+}
+
+.personal-bio {
+    margin: 0 20px;
+    font-size: 24px;
+    line-height: 1.7;
+    padding-left: 15px;
+    flex: 1 68%;
+    margin-top: 50px;
+}
+.work-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-examples {
+    display: flex;
+}
+
+.work-examples img {
+    margin: 60px;
+    width: 500px;
+}
+
+.contact-me-section {
+    display: flex;
+    justify-content: space-between
+}
+
+.contact-info ul {
+    display: flex;
+}
+
+.contact-info ul li {
+    margin: 0 150px;
+    font-size: 24px;
+    list-style: none;
+}
